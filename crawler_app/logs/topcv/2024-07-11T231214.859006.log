@@ -1,0 +1,1020 @@
+2024-07-11 23:12:15 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-07-11 23:12:15 [py.warnings] WARNING: /Users/thaiminhhuy/.pyenv/versions/3.10.4/lib/python3.10/site-packages/scrapy/extensions/feedexport.py:406: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2024-07-11 23:12:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter']
+2024-07-11 23:12:15 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'crawler_app',
+ 'DOWNLOAD_DELAY': 4,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs/topcv/2024-07-11T231214.859006.log',
+ 'NEWSPIDER_MODULE': 'crawler_app.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'RETRY_HTTP_CODES': [429, 503],
+ 'RETRY_TIMES': 5,
+ 'ROBOTSTXT_OBEY': True,
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['crawler_app.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+2024-07-11 23:12:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-07-11 23:12:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-07-11 23:12:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-07-11 23:12:16 [scrapy.core.engine] INFO: Spider opened
+2024-07-11 23:12:16 [topcv] DEBUG: Resuming crawl (29 requests scheduled)
+2024-07-11 23:12:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/robots.txt> (referer: None)
+2024-07-11 23:12:16 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/robots.txt> (referer: None)
+2024-07-11 23:12:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:22 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '-Huởng đầy đủ các chế độ BHXH, BHYT, HĐLĐ, ngày phép và các chế '
+             'độ khác theo quy định của nhà nước.\n'
+             '-Có phụ cấp gửi xe\n'
+             '-Định kỳ tăng lương hằng năm \n'
+             '-Được đào tạo, phát triển năng lực để đáp ứng yêu cầu công việc '
+             'và lộ trình thăng tiến\n'
+             '-Tham gia khoá học khi cần thiết\n'
+             '-Thưởng theo tuần/tháng/quý/năm và theo dự án\n'
+             '-Thưởng lễ/tết\n'
+             '-Môi trường làm việc trẻ, thân thiện và năng động.\n'
+             '-Du lịch: 1 lần/năm',
+ 'company': 'CÔNG TY CỔ PHẦN WEBIFY GROUP',
+ 'deadline': '',
+ 'description': '-Sử dụng phần mềm chuyên dụng và các công cụ thu thập dữ liệu '
+                'web để trích xuất dữ liệu từ các trang web\n'
+                '-Xây dựng và quản lý các công cụ dọn dẹp web\n'
+                '-Phân tích và cung cấp dữ liệu thu được ở định dạng đầu ra '
+                'được yêu cầu.\n'
+                '-Cải thiện phân tích thu thập dữ liệu/scrap, báo cáo và quản '
+                'lý dữ liệu',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '12 - 18 triệu',
+ 'title': 'Nhân Viên Data Crawler'}
+2024-07-11 23:12:22 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '-Huởng đầy đủ các chế độ BHXH, BHYT, HĐLĐ, ngày phép và các chế '
+             'độ khác theo quy định của nhà nước.\n'
+             '-Có phụ cấp gửi xe\n'
+             '-Định kỳ tăng lương hằng năm \n'
+             '-Được đào tạo, phát triển năng lực để đáp ứng yêu cầu công việc '
+             'và lộ trình thăng tiến\n'
+             '-Tham gia khoá học khi cần thiết\n'
+             '-Thưởng theo tuần/tháng/quý/năm và theo dự án\n'
+             '-Thưởng lễ/tết\n'
+             '-Môi trường làm việc trẻ, thân thiện và năng động.\n'
+             '-Du lịch: 1 lần/năm',
+ 'company': 'CÔNG TY CỔ PHẦN WEBIFY GROUP',
+ 'deadline': '',
+ 'description': '-Sử dụng phần mềm chuyên dụng và các công cụ thu thập dữ liệu '
+                'web để trích xuất dữ liệu từ các trang web\n'
+                '-Xây dựng và quản lý các công cụ dọn dẹp web\n'
+                '-Phân tích và cung cấp dữ liệu thu được ở định dạng đầu ra '
+                'được yêu cầu.\n'
+                '-Cải thiện phân tích thu thập dữ liệu/scrap, báo cáo và quản '
+                'lý dữ liệu',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-data-crawler/1393697.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '12 - 18 triệu',
+ 'title': 'Nhân Viên Data Crawler'}
+2024-07-11 23:12:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:27 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8',
+ 'deadline': '',
+ 'description': '',
+ 'experience': 'Dưới 1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Trên 8 triệu',
+ 'title': 'Sale IT Tiếng Hàn'}
+2024-07-11 23:12:27 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8',
+ 'deadline': '',
+ 'description': '',
+ 'experience': 'Dưới 1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/sale-it-tieng-han/1400308.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Trên 8 triệu',
+ 'title': 'Sale IT Tiếng Hàn'}
+2024-07-11 23:12:32 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.topcv.vn/viec-lam/middle-backend-ruby-on-rails/1398791.html?ta_source=ITJobs_LinkDetail> (failed 1 times): 429 Unknown Status
+2024-07-11 23:12:32 [scrapy] DEBUG: Retrying <GET https://www.topcv.vn/viec-lam/middle-backend-ruby-on-rails/1398791.html?ta_source=ITJobs_LinkDetail> (failed 1 times): 429 Unknown Status
+2024-07-11 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:37 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH CÔNG NGHỆ GIA ĐÌNH (FTECH CO., LTD)',
+ 'deadline': '',
+ 'description': '',
+ 'experience': 'Không yêu cầu kinh nghiệm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Android Developer'}
+2024-07-11 23:12:37 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH CÔNG NGHỆ GIA ĐÌNH (FTECH CO., LTD)',
+ 'deadline': '',
+ 'description': '',
+ 'experience': 'Không yêu cầu kinh nghiệm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/android-developer/1401216.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Android Developer'}
+2024-07-11 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=3> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:40 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=3> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:46 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH VI TÍNH NGUYÊN KIM',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '8 - 9 triệu',
+ 'title': 'Nhân Viên Kinh Doanh ICT'}
+2024-07-11 23:12:46 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH VI TÍNH NGUYÊN KIM',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-kinh-doanh-ict/1400340.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '8 - 9 triệu',
+ 'title': 'Nhân Viên Kinh Doanh ICT'}
+2024-07-11 23:12:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:51 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '- Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn.\n'
+             '- Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '- Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '- Được cử tham gia các khóa đào tạo mới, đào tạo nâng cao phù '
+             'hợp với năng lực và nguyện vọng.\n'
+             '- Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '2. Chế độ đãi ngộ\n'
+             '- Phụ cấp tăng ca, thưởng dự án, thưởng vượt chỉ tiêu, thưởng '
+             'tháng lương thứ 13,...\n'
+             '- Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm; phụ cấp '
+             'nhà ở, xăng xe, ăn trưa, thai sản, con nhỏ, cưới hỏi, sinh '
+             'nhật,...\n'
+             '- Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '- Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '- Trợ cấp chứng chỉ liên quan đến vị trí công việc.\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '- Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển. \n'
+             '- Được tham gia các hoạt động teambuilding hàng tháng, du lịch '
+             'hàng năm.\n'
+             '- Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '- Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm.\n'
+             '- Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, gym, '
+             'bơi lội, ...',
+ 'company': 'Công ty Cổ phần Giải pháp Công nghệ TTC Việt Nam',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '25 - 30 triệu',
+ 'title': 'Lập Trình Viên .NET'}
+2024-07-11 23:12:51 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '- Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn.\n'
+             '- Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '- Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '- Được cử tham gia các khóa đào tạo mới, đào tạo nâng cao phù '
+             'hợp với năng lực và nguyện vọng.\n'
+             '- Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '2. Chế độ đãi ngộ\n'
+             '- Phụ cấp tăng ca, thưởng dự án, thưởng vượt chỉ tiêu, thưởng '
+             'tháng lương thứ 13,...\n'
+             '- Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm; phụ cấp '
+             'nhà ở, xăng xe, ăn trưa, thai sản, con nhỏ, cưới hỏi, sinh '
+             'nhật,...\n'
+             '- Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '- Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '- Trợ cấp chứng chỉ liên quan đến vị trí công việc.\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '- Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển. \n'
+             '- Được tham gia các hoạt động teambuilding hàng tháng, du lịch '
+             'hàng năm.\n'
+             '- Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '- Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm.\n'
+             '- Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, gym, '
+             'bơi lội, ...',
+ 'company': 'Công ty Cổ phần Giải pháp Công nghệ TTC Việt Nam',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-net/1401267.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '25 - 30 triệu',
+ 'title': 'Lập Trình Viên .NET'}
+2024-07-11 23:12:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:54 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'XPERC LTD',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'QC Software Engineer/ Tester (Mid-Level)'}
+2024-07-11 23:12:55 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'XPERC LTD',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/qc-software-engineer-tester-mid-level/1401393.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'QC Software Engineer/ Tester (Mid-Level)'}
+2024-07-11 23:12:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:59 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:12:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail>
+{'benefits': "Ready to make a difference in Nimble's designs? Please apply and "
+             'share your latest resume and portfolio (compulsory), including '
+             'personal and work projects.',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                ' \n'
+                'Although each day is usually different and presents its own '
+                'challenges, there are common themes that you will face every '
+                'day:',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam, Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '35 - 70 triệu',
+ 'title': 'Senior Or Lead - UX/UI Designer'}
+2024-07-11 23:12:59 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail>
+{'benefits': "Ready to make a difference in Nimble's designs? Please apply and "
+             'share your latest resume and portfolio (compulsory), including '
+             'personal and work projects.',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                ' \n'
+                'Although each day is usually different and presents its own '
+                'challenges, there are common themes that you will face every '
+                'day:',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/senior-or-lead-ux-ui-designer/1396345.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam, Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': '35 - 70 triệu',
+ 'title': 'Senior Or Lead - UX/UI Designer'}
+2024-07-11 23:13:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:03 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '• Lương lên tới 15.000.000đ tương xứng với năng lực, trình độ '
+             'chuyên môn và đóng góp cho dự án/công ty.\n'
+             '• Thưởng dự án, tháng thứ 13 + thưởng hàng năm theo hiệu quả của '
+             'sản phẩm\n'
+             '• Xét duyệt tăng lương thường xuyên theo năng lực và hiệu quả '
+             'công việc\n'
+             '• Làm việc trong môi trường trẻ, năng động.\n'
+             '• Đi du lịch hàng năm\n'
+             '• Tham gia BHXH, BHYT theo luật lao động\n'
+             '• Nghỉ cách ngày thứ 7 trong tháng + CN và các ngày lễ trong '
+             'năm.\n'
+             '• Nhiều hoạt động văn hóa thể thao đa dạng',
+ 'company': 'Công ty cổ phần công nghệ Mas Vision',
+ 'deadline': '',
+ 'description': '- Làm việc với hệ thống chạy Linux, Unix.\n'
+                '- Triển khai, vận hành quản trị hệ thống máy chủ dịch vụ.\n'
+                '- Cài đặt, cấu hình, quản lý hệ thống web, database, máy tính '
+                'công ty...\n'
+                '- Vận hành, giám sát và theo dõi hệ thống để đảm bảo hoạt '
+                'động ổn định 24/7.\n'
+                '- Nghiên cứu các giải pháp công nghệ mới để tối ưu và mở rộng '
+                'hệ thống đảm bảo yêu cầu kinh doanh.\n'
+                '- Triển khai các giải pháp đảm bảo ATTT cho toàn bộ hệ '
+                'thống.\n'
+                '- Backup về dữ liệu file server, hệ thống website công ty.\n'
+                '- Bảo trì và tham gia giải quyết khi có các sự cố liên quan '
+                'đến mạng, máy tính, server, máy in...',
+ 'experience': '1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Tới 15 triệu',
+ 'title': 'Nhân Viên Quản Trị Hệ Thống'}
+2024-07-11 23:13:03 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '• Lương lên tới 15.000.000đ tương xứng với năng lực, trình độ '
+             'chuyên môn và đóng góp cho dự án/công ty.\n'
+             '• Thưởng dự án, tháng thứ 13 + thưởng hàng năm theo hiệu quả của '
+             'sản phẩm\n'
+             '• Xét duyệt tăng lương thường xuyên theo năng lực và hiệu quả '
+             'công việc\n'
+             '• Làm việc trong môi trường trẻ, năng động.\n'
+             '• Đi du lịch hàng năm\n'
+             '• Tham gia BHXH, BHYT theo luật lao động\n'
+             '• Nghỉ cách ngày thứ 7 trong tháng + CN và các ngày lễ trong '
+             'năm.\n'
+             '• Nhiều hoạt động văn hóa thể thao đa dạng',
+ 'company': 'Công ty cổ phần công nghệ Mas Vision',
+ 'deadline': '',
+ 'description': '- Làm việc với hệ thống chạy Linux, Unix.\n'
+                '- Triển khai, vận hành quản trị hệ thống máy chủ dịch vụ.\n'
+                '- Cài đặt, cấu hình, quản lý hệ thống web, database, máy tính '
+                'công ty...\n'
+                '- Vận hành, giám sát và theo dõi hệ thống để đảm bảo hoạt '
+                'động ổn định 24/7.\n'
+                '- Nghiên cứu các giải pháp công nghệ mới để tối ưu và mở rộng '
+                'hệ thống đảm bảo yêu cầu kinh doanh.\n'
+                '- Triển khai các giải pháp đảm bảo ATTT cho toàn bộ hệ '
+                'thống.\n'
+                '- Backup về dữ liệu file server, hệ thống website công ty.\n'
+                '- Bảo trì và tham gia giải quyết khi có các sự cố liên quan '
+                'đến mạng, máy tính, server, máy in...',
+ 'experience': '1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/nhan-vien-quan-tri-he-thong/919750.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Tới 15 triệu',
+ 'title': 'Nhân Viên Quản Trị Hệ Thống'}
+2024-07-11 23:13:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:08 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail>
+{'benefits': 'Cơ hội phát triển:\nChế độ khác:',
+ 'company': 'Công ty TNHH Kiaisoft Việt Nam',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '22 - 40 triệu',
+ 'title': 'Lập Trình Viên PHP (Middle/Senior)'}
+2024-07-11 23:13:08 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail>
+{'benefits': 'Cơ hội phát triển:\nChế độ khác:',
+ 'company': 'Công ty TNHH Kiaisoft Việt Nam',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-php-middle-senior/1400528.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '22 - 40 triệu',
+ 'title': 'Lập Trình Viên PHP (Middle/Senior)'}
+2024-07-11 23:13:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:13 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Viettel Digital',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Solution Architect (Giải Pháp Kiến Trúc)'}
+2024-07-11 23:13:13 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Viettel Digital',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/solution-architect-giai-phap-kien-truc/1401078.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Solution Architect (Giải Pháp Kiến Trúc)'}
+2024-07-11 23:13:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:18 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                'We are seeking highly skilled and experienced Senior People '
+                'Operations to join our team. In this role, you will lead all '
+                'our People Operations activities in Ho Chi Minh City, and '
+                'there is a lot of room for you to learn and grow in this '
+                'role. We have a growing team composed of both Vietnamese and '
+                'foreign nationals, and ambitious plans for expansion. Our '
+                'operations span multiple countries, so you will coordinate '
+                'with people across borders to ensure our local policies are '
+                "aligned with the company's direction.\n"
+                ' \n'
+                'External factors (e.g. COVID-19 among others) require our '
+                'company to adapt at a very fast pace, from re-planning '
+                'activities, to starting new ones to keep our team together '
+                'and engaged to creating and adapting our policies. We expect '
+                'new initiatives and processes from you to improve the way we '
+                'operate.',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam, Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Senior People Operations (On-Site)'}
+2024-07-11 23:13:18 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                'We are seeking highly skilled and experienced Senior People '
+                'Operations to join our team. In this role, you will lead all '
+                'our People Operations activities in Ho Chi Minh City, and '
+                'there is a lot of room for you to learn and grow in this '
+                'role. We have a growing team composed of both Vietnamese and '
+                'foreign nationals, and ambitious plans for expansion. Our '
+                'operations span multiple countries, so you will coordinate '
+                'with people across borders to ensure our local policies are '
+                "aligned with the company's direction.\n"
+                ' \n'
+                'External factors (e.g. COVID-19 among others) require our '
+                'company to adapt at a very fast pace, from re-planning '
+                'activities, to starting new ones to keep our team together '
+                'and engaged to creating and adapting our policies. We expect '
+                'new initiatives and processes from you to improve the way we '
+                'operate.',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/senior-people-operations-on-site/1396391.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam, Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Senior People Operations (On-Site)'}
+2024-07-11 23:13:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:24 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN AHT TECH',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh, Hà Nội',
+ 'requirements': '',
+ 'salary': 'Tới 2,500 USD',
+ 'title': '.NET Developer - English Fluent (Hybrid)'}
+2024-07-11 23:13:24 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN AHT TECH',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/net-developer-english-fluent-hybrid/1285020.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh, Hà Nội',
+ 'requirements': '',
+ 'salary': 'Tới 2,500 USD',
+ 'title': '.NET Developer - English Fluent (Hybrid)'}
+2024-07-11 23:13:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:29 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '\n'
+             '• Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn\n'
+             '\n'
+             '• Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '\n'
+             '• Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '\n'
+             '• Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '\n'
+             '2. Chế độ đãi ngộ\n'
+             '\n'
+             '• Thu nhập hấp dẫn tùy theo năng lực của từng cá nhân.\n'
+             '\n'
+             '• Lương OT, thưởng dự án, thưởng các ngày lễ lớn, thưởng tháng '
+             'lương thứ 13,...\n'
+             '\n'
+             '• Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm, ngày phép, '
+             'thai sản, con nhỏ, cưới hỏi, sinh nhật,...\n'
+             '\n'
+             '• Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '\n'
+             '• Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '\n'
+             '• Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển.\n'
+             '\n'
+             '• Được tham gia các hoạt động teambuilding, du lịch hàng năm.\n'
+             '\n'
+             '• Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '\n'
+             '• Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm.\n'
+             '\n'
+             '• Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, chạy '
+             'bộ, bi-a,...',
+ 'company': 'CÔNG TY CỔ PHẦN CÔNG NGHỆ SOPEN VIỆT NAM',
+ 'deadline': '',
+ 'description': '• Phát triển hệ thống Website cho ứng dụng thuộc lĩnh vực Y '
+                'tế, Chính phủ, điều hành quản lý trong các tổ chức doanh '
+                'nghiệp lớn, công nghệ cao và nhiều lĩnh vực khác.\n'
+                '\n'
+                '• Tham gia vào các công đoạn: lập trình, unit test, hỗ trợ bộ '
+                'phận nghiệp vụ xây dựng tài liệu chức năng, tối ưu '
+                'performance,...\n'
+                '\n'
+                '• Lập trình linh hoạt trên hệ thống các ứng dụng trên nền '
+                'Java Core, Java Spring Boot, Python triển khai theo hình thức '
+                'microservice chạy độc lập.\n'
+                '\n'
+                '• Viết code và Unit test theo mô hình phát triển DevOps '
+                'CI/CD.\n'
+                '\n'
+                '• Tối ưu performance các xử lý giải thuật.\n'
+                '\n'
+                '• Tham gia tìm hiểu các công nghệ, kỹ thuật mới.',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Lập Trình Viên Java / Java Dev'}
+2024-07-11 23:13:29 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '\n'
+             '• Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn\n'
+             '\n'
+             '• Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '\n'
+             '• Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '\n'
+             '• Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '\n'
+             '2. Chế độ đãi ngộ\n'
+             '\n'
+             '• Thu nhập hấp dẫn tùy theo năng lực của từng cá nhân.\n'
+             '\n'
+             '• Lương OT, thưởng dự án, thưởng các ngày lễ lớn, thưởng tháng '
+             'lương thứ 13,...\n'
+             '\n'
+             '• Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm, ngày phép, '
+             'thai sản, con nhỏ, cưới hỏi, sinh nhật,...\n'
+             '\n'
+             '• Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '\n'
+             '• Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '\n'
+             '• Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển.\n'
+             '\n'
+             '• Được tham gia các hoạt động teambuilding, du lịch hàng năm.\n'
+             '\n'
+             '• Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '\n'
+             '• Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm.\n'
+             '\n'
+             '• Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, chạy '
+             'bộ, bi-a,...',
+ 'company': 'CÔNG TY CỔ PHẦN CÔNG NGHỆ SOPEN VIỆT NAM',
+ 'deadline': '',
+ 'description': '• Phát triển hệ thống Website cho ứng dụng thuộc lĩnh vực Y '
+                'tế, Chính phủ, điều hành quản lý trong các tổ chức doanh '
+                'nghiệp lớn, công nghệ cao và nhiều lĩnh vực khác.\n'
+                '\n'
+                '• Tham gia vào các công đoạn: lập trình, unit test, hỗ trợ bộ '
+                'phận nghiệp vụ xây dựng tài liệu chức năng, tối ưu '
+                'performance,...\n'
+                '\n'
+                '• Lập trình linh hoạt trên hệ thống các ứng dụng trên nền '
+                'Java Core, Java Spring Boot, Python triển khai theo hình thức '
+                'microservice chạy độc lập.\n'
+                '\n'
+                '• Viết code và Unit test theo mô hình phát triển DevOps '
+                'CI/CD.\n'
+                '\n'
+                '• Tối ưu performance các xử lý giải thuật.\n'
+                '\n'
+                '• Tham gia tìm hiểu các công nghệ, kỹ thuật mới.',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/lap-trinh-vien-java-java-dev/1401529.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Lập Trình Viên Java / Java Dev'}
+2024-07-11 23:13:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:35 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail>
+{'benefits': 'Hưởng các chế độ phúc lợi như nghỉ mát, ngoại khóa, các sự kiện '
+             'hàng quý/năm, các phần quà các ngày lễ, tết...',
+ 'company': 'Công ty cổ phần công nghệ DTT',
+ 'deadline': '',
+ 'description': '- Xây dựng ứng dụng phần mềm trên nền công nghệ Java và Phần '
+                'mềm mã nguồn mở.\n'
+                '- Tham gia các dự án công nghệ thông tin cho các bộ ngành, '
+                'địa phương về chính quyền điện tử.\n'
+                '- Tham gia quá trình phân tích thiết kế hệ thống đưa ra các '
+                'giải pháp thiết kế.\n'
+                '- Lựa chọn và nghiên cứu công nghệ cho từng dự án.\n'
+                '- Quản lý team từ 3-5 người trong quá trình phát triển phần '
+                'mềm.\n'
+                '- Đảm bảo chất lượng và tiến độ các phần phụ trách.\n'
+                '- Phân công,hướng dẫn, điều phối và hỗ trợ các thành viên '
+                'trong team thực hiện các công việc được giao.\n'
+                '- Cài đặt hệ thống trên các hạ tầng kiểm thử và chạy thật đảm '
+                'bảo hệ thống vận hành đúng theo thiết kế.\n'
+                '- Trao đổi hỗ trợ với đội nghiệp vụ, kiểm thử đảm bảo dự án '
+                'triển khai đúng yêu cầu khách hàng và chất lượng sản phẩm.\n'
+                '- Tham gia hỗ trợ viết các tài liệu bao gồm : Kiến trúc hệ '
+                'thống, Phân tích thiết kế hệ thống, Tài liệu cấu hình hệ '
+                'thống\n'
+                '- Thường xuyên báo cáo tiến độ phát triển và có giải pháp xử '
+                'lý trong quá trình triển khai dự án.',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Kỹ Sư Giải Pháp (Team Leader Java)'}
+2024-07-11 23:13:35 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail>
+{'benefits': 'Hưởng các chế độ phúc lợi như nghỉ mát, ngoại khóa, các sự kiện '
+             'hàng quý/năm, các phần quà các ngày lễ, tết...',
+ 'company': 'Công ty cổ phần công nghệ DTT',
+ 'deadline': '',
+ 'description': '- Xây dựng ứng dụng phần mềm trên nền công nghệ Java và Phần '
+                'mềm mã nguồn mở.\n'
+                '- Tham gia các dự án công nghệ thông tin cho các bộ ngành, '
+                'địa phương về chính quyền điện tử.\n'
+                '- Tham gia quá trình phân tích thiết kế hệ thống đưa ra các '
+                'giải pháp thiết kế.\n'
+                '- Lựa chọn và nghiên cứu công nghệ cho từng dự án.\n'
+                '- Quản lý team từ 3-5 người trong quá trình phát triển phần '
+                'mềm.\n'
+                '- Đảm bảo chất lượng và tiến độ các phần phụ trách.\n'
+                '- Phân công,hướng dẫn, điều phối và hỗ trợ các thành viên '
+                'trong team thực hiện các công việc được giao.\n'
+                '- Cài đặt hệ thống trên các hạ tầng kiểm thử và chạy thật đảm '
+                'bảo hệ thống vận hành đúng theo thiết kế.\n'
+                '- Trao đổi hỗ trợ với đội nghiệp vụ, kiểm thử đảm bảo dự án '
+                'triển khai đúng yêu cầu khách hàng và chất lượng sản phẩm.\n'
+                '- Tham gia hỗ trợ viết các tài liệu bao gồm : Kiến trúc hệ '
+                'thống, Phân tích thiết kế hệ thống, Tài liệu cấu hình hệ '
+                'thống\n'
+                '- Thường xuyên báo cáo tiến độ phát triển và có giải pháp xử '
+                'lý trong quá trình triển khai dự án.',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/ky-su-giai-phap-team-leader-java/1401106.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Kỹ Sư Giải Pháp (Team Leader Java)'}
+2024-07-11 23:13:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:40 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                'We are seeking a highly skilled and experienced Talent '
+                'Acquisition - Senior or Lead to join our team. In this role, '
+                'you will take care of our talent acquisition strategy to '
+                'ensure we attract and select the right talent in a fast-paced '
+                'market.',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam & 2 nơi khác',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Talent Acquisition - Senior Or Lead'}
+2024-07-11 23:13:40 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'NIMBLE VIETNAM LIMITED LIABILITY COMPANY',
+ 'deadline': '',
+ 'description': "We solve our client's most difficult business challenges "
+                'through technology. Our company partners with the most '
+                'ambitious companies around the world creating long-term '
+                'impact with the work with do. If you want to grow together, '
+                'work on challenging products and enjoy using the best tools '
+                'and practices, Nimble is the right place for you!\n'
+                ' \n'
+                ' \n'
+                'We are seeking a highly skilled and experienced Talent '
+                'Acquisition - Senior or Lead to join our team. In this role, '
+                'you will take care of our talent acquisition strategy to '
+                'ensure we attract and select the right talent in a fast-paced '
+                'market.',
+ 'experience': 'Trên 5 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/talent-acquisition-senior-or-lead/1396376.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Miền Nam & 2 nơi khác',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Talent Acquisition - Senior Or Lead'}
+2024-07-11 23:13:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:46 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN TẬP ĐOÀN IVI',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Quản Lý Triển Khai Dự Án Phần Mềm'}
+2024-07-11 23:13:46 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY CỔ PHẦN TẬP ĐOÀN IVI',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/quan-ly-trien-khai-du-an-phan-mem/1297008.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Quản Lý Triển Khai Dự Án Phần Mềm'}
+2024-07-11 23:13:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:51 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Công ty Cổ phần 1OFFICE',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Chuyên Viên Kiểm Thử Phần Mềm (Tester)'}
+2024-07-11 23:13:51 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Công ty Cổ phần 1OFFICE',
+ 'deadline': '',
+ 'description': '',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/chuyen-vien-kiem-thu-phan-mem-tester/1350814.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Chuyên Viên Kiểm Thử Phần Mềm (Tester)'}
+2024-07-11 23:13:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:56 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH ILLUMINUS.AI',
+ 'deadline': '',
+ 'description': 'As a windows application developer, you’ll help us develop '
+                'windows client programs and test our service and '
+                'documentation.',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Tới 27 triệu',
+ 'title': 'C++ Developer (Windows Application Developer)'}
+2024-07-11 23:13:56 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'CÔNG TY TNHH ILLUMINUS.AI',
+ 'deadline': '',
+ 'description': 'As a windows application developer, you’ll help us develop '
+                'windows client programs and test our service and '
+                'documentation.',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/c-developer-windows-application-developer/1400935.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hồ Chí Minh',
+ 'requirements': '',
+ 'salary': 'Tới 27 triệu',
+ 'title': 'C++ Developer (Windows Application Developer)'}
+2024-07-11 23:13:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:13:59 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=&page=2)
+2024-07-11 23:14:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '- Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn.\n'
+             '- Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '- Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '- Được cử tham gia các khóa đào tạo mới, đào tạo nâng cao phù '
+             'hợp với năng lực và nguyện vọng.\n'
+             '- Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '2. Chế độ đãi ngộ\n'
+             '- Phụ cấp tăng ca, thưởng dự án, thưởng vượt chỉ tiêu, thưởng '
+             'tháng lương thứ 13,...\n'
+             '- Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm; phụ cấp '
+             'nhà ở, xăng xe, ăn trưa, thai sản, con nhỏ, cưới hỏi, sinh '
+             'nhật,...\n'
+             '- Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '- Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '- Trợ cấp chứng chỉ liên quan đến vị trí công việc.\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '- Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển. \n'
+             '- Được tham gia các hoạt động teambuilding hàng tháng, du lịch '
+             'hàng năm.\n'
+             '- Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '- Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm\n'
+             '- Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, gym, '
+             'bơi lội, ...',
+ 'company': 'Công ty Cổ phần Giải pháp Công nghệ TTC Việt Nam',
+ 'deadline': '',
+ 'description': '- Lập kế hoạch test, xây dựng kịch bản test cho các sản phẩm '
+                'Web, Mobile app, API ...\n'
+                '- Thực thi kiểm thử và báo cáo (automation)\n'
+                '- Nghiên cứu và cập nhật các công cụ và kiến thức mới hỗ trợ '
+                'cho công việc',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '24 - 27 triệu',
+ 'title': 'Automation Tester (Dự Án Banking)'}
+2024-07-11 23:14:00 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '1. Cơ hội phát triển bản thân\n'
+             '- Làm việc với đội ngũ kỹ sư, nhân viên năng động, giàu nhiệt '
+             'huyết, đam mê, lý tưởng lớn.\n'
+             '- Được lắng nghe, tôn trọng ý kiến, quan điểm cá nhân để trao '
+             'đổi thẳng thắn, chia sẻ cùng phát triển.\n'
+             '- Được lãnh đạo giàu kinh nghiệm đào tạo, định hướng con đường '
+             'nghề nghiệp rõ ràng.\n'
+             '- Được cử tham gia các khóa đào tạo mới, đào tạo nâng cao phù '
+             'hợp với năng lực và nguyện vọng.\n'
+             '- Được ghi nhận những đóng góp, nỗ lực kịp thời, chính xác.\n'
+             '2. Chế độ đãi ngộ\n'
+             '- Phụ cấp tăng ca, thưởng dự án, thưởng vượt chỉ tiêu, thưởng '
+             'tháng lương thứ 13,...\n'
+             '- Được công ty thực hiện đầy đủ nghĩa vụ về bảo hiểm; phụ cấp '
+             'nhà ở, xăng xe, ăn trưa, thai sản, con nhỏ, cưới hỏi, sinh '
+             'nhật,...\n'
+             '- Định kỳ xét tăng lương theo năm hoặc đột xuất theo đánh giá.\n'
+             '- Được hỗ trợ các thiết bị, công cụ cần thiết cho thực hiện công '
+             'việc.\n'
+             '- Trợ cấp chứng chỉ liên quan đến vị trí công việc.\n'
+             '3. Đời sống tinh thần phong phú\n'
+             '- Môi trường làm việc chuyên nghiệp, thân thiện, cởi mở. Các '
+             'thành viên trong công ty gần gũi, gắn bó, quan tâm, giúp đỡ nhau '
+             'cùng phát triển. \n'
+             '- Được tham gia các hoạt động teambuilding hàng tháng, du lịch '
+             'hàng năm.\n'
+             '- Công ty luôn động viên và tạo điều kiện tốt nhất cho toàn thể '
+             'nhân viên.\n'
+             '- Công ty tổ chức các buổi sinh nhật cho nhân viên hàng tháng, '
+             'tổ chức thưởng và kỉ niệm những ngày lễ tết trong năm\n'
+             '- Hoạt động văn hóa thể thao đa dạng: câu lạc bộ bóng đá, gym, '
+             'bơi lội, ...',
+ 'company': 'Công ty Cổ phần Giải pháp Công nghệ TTC Việt Nam',
+ 'deadline': '',
+ 'description': '- Lập kế hoạch test, xây dựng kịch bản test cho các sản phẩm '
+                'Web, Mobile app, API ...\n'
+                '- Thực thi kiểm thử và báo cáo (automation)\n'
+                '- Nghiên cứu và cập nhật các công cụ và kiến thức mới hỗ trợ '
+                'cho công việc',
+ 'experience': '4 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/automation-tester-du-an-banking/1401274.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': '24 - 27 triệu',
+ 'title': 'Automation Tester (Dự Án Banking)'}

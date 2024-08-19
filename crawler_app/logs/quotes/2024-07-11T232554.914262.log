@@ -1,0 +1,38 @@
+2024-07-11 23:25:56 [scrapy] DEBUG: Crawled (404) <GET http://quotes.toscrape.com/robots.txt> (referer: None)
+2024-07-11 23:26:00 [scrapy] DEBUG: Crawled (200) <GET http://quotes.toscrape.com/> (referer: None)
+2024-07-11 23:26:00 [scrapy] ERROR: Spider error processing <GET http://quotes.toscrape.com/> (referer: None)
+Traceback (most recent call last):
+  File "/Users/thaiminhhuy/.pyenv/versions/3.10.4/lib/python3.10/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/Users/thaiminhhuy/.pyenv/versions/3.10.4/lib/python3.10/site-packages/scrapy/spiders/__init__.py", line 85, in parse
+    raise NotImplementedError(
+NotImplementedError: QuotesSpider.parse callback is not defined
+2024-07-11 23:26:00 [scrapy] INFO: Closing spider (finished)
+2024-07-11 23:26:00 [scrapy] INFO: Stored json feed (0 items) in: output.json
+2024-07-11 23:26:00 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 610,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 11504,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 4.756147,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 7, 11, 16, 26, 0, 916967, tzinfo=datetime.timezone.utc),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 64925696,
+ 'memusage/startup': 64925696,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'spider_exceptions/NotImplementedError': 1,
+ 'start_time': datetime.datetime(2024, 7, 11, 16, 25, 56, 160820, tzinfo=datetime.timezone.utc)}
+2024-07-11 23:26:00 [scrapy] INFO: Spider closed (finished)

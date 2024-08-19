@@ -1,0 +1,30 @@
+2024-07-11 23:27:01 [scrapy] DEBUG: Crawled (404) <GET http://quotes.toscrape.com/robots.txt> (referer: None)
+2024-07-11 23:27:07 [scrapy] DEBUG: Crawled (200) <GET http://quotes.toscrape.com/> (referer: None)
+2024-07-11 23:27:07 [quotes] DEBUG: Saved file quotes-quotes.toscrape.com.html
+2024-07-11 23:27:07 [scrapy] INFO: Closing spider (finished)
+2024-07-11 23:27:07 [scrapy] INFO: Stored json feed (0 items) in: output.json
+2024-07-11 23:27:07 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 610,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 11504,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 6.070277,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 7, 11, 16, 27, 7, 165884, tzinfo=datetime.timezone.utc),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 64954368,
+ 'memusage/startup': 64954368,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2024, 7, 11, 16, 27, 1, 95607, tzinfo=datetime.timezone.utc)}
+2024-07-11 23:27:07 [scrapy] INFO: Spider closed (finished)

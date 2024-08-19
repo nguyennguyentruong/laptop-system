@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "laptop-system"
+version = "0.1.0"
+description = ""
+authors = ["nguyennguyentruong <nguyenntk.18@grad.uit.edu.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt-dremio = "^1.7.0"
+scrapy = "^2.11.2"
+cloudinary = "^1.41.0"
+selenium = "^4.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

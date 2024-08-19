@@ -1,0 +1,16 @@
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /app
+COPY . /app
+# Install Scrapyd
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy entrypoint script into the container
+COPY entrypoint.sh /app/entrypoint.sh
+
+# Make entrypoint script executable
+RUN chmod +x /app/entrypoint.sh
+
+# Define the entrypoint script to run commands sequentially
+ENTRYPOINT ["/app/entrypoint.sh"]

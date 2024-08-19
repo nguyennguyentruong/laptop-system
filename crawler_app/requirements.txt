@@ -1,0 +1,7 @@
+scrapy==2.11.2
+scrapyd==1.4.3
+twisted==24.3.0
+scrapyd-client==1.2.3
+cloudinary==1.40.0
+psycopg2-binary==2.9.9
+selenium==4.23.1

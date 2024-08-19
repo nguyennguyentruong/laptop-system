@@ -1,0 +1,14 @@
+setup.py
+crawler_app/__init__.py
+crawler_app/items.py
+crawler_app/middlewares.py
+crawler_app/pipelines.py
+crawler_app/settings.py
+crawler_app/spiders/__init__.py
+crawler_app/spiders/quotes_spider.py
+crawler_app/spiders/topcv_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

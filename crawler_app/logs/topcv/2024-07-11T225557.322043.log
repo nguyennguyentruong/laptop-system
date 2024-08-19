@@ -1,0 +1,100 @@
+2024-07-11 22:55:59 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/robots.txt> (referer: None)
+2024-07-11 22:56:05 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=> (referer: None)
+2024-07-11 22:56:10 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/dynamics-365-developer/1349711.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=)
+2024-07-11 22:56:10 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/dynamics-365-developer/1349711.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Tek Experts Vietnam',
+ 'deadline': '',
+ 'description': 'Tek Experts PSV là công ty trực thuộc tập đoàn đa quốc gia '
+                'YNV, hoạt động trong lĩnh vực cung cấp dịch vụ và giải pháp '
+                'công nghệ cho các đối tác toàn cầu. Sau nhiều năm hình thành '
+                'và phát triển, Tek Experts PSV tự hào cam kết mang đến một '
+                'môi trường làm việc quốc tế chuyên nghiệp với đầy đủ trang '
+                'thiết bị hiện đại, nơi mọi màu sắc cá nhân được tôn trọng và '
+                'tất cả thành viên đều có cơ hội tự do tỏa sáng.\n'
+                'Tek Experts PSV đang tìm kiếm ứng viên tiềm năng cho vị trí '
+                'Dynamics 365 Developer với nội dung công việc như sau:',
+ 'experience': '3 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/dynamics-365-developer/1349711.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Thoả thuận',
+ 'title': 'Dynamics 365 Developer'}
+2024-07-11 22:56:15 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/data-engineer/1225006.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=)
+2024-07-11 22:56:15 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/data-engineer/1225006.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '',
+ 'company': 'Tek Experts Vietnam',
+ 'deadline': '',
+ 'description': 'Tek Experts PSV đang tìm kiếm ứng viên tiềm năng cho vị trí '
+                'Data Engineer (từ 2 năm kinh nghiệm trở lên) với nội dung '
+                'công việc như sau:',
+ 'experience': '2 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/data-engineer/1225006.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '',
+ 'salary': 'Tới 40 triệu',
+ 'title': 'Data Engineer'}
+2024-07-11 22:56:20 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/chuyen-vien-quan-ly-chat-luong-thu-nhap-len-den-20-trieu-nghi-thu-7-chu-nhat/1386932.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=)
+2024-07-11 22:56:21 [scrapy] DEBUG: Scraped from <200 https://www.topcv.vn/viec-lam/chuyen-vien-quan-ly-chat-luong-thu-nhap-len-den-20-trieu-nghi-thu-7-chu-nhat/1386932.html?ta_source=ITJobs_LinkDetail>
+{'benefits': '- Môi trường làm việc tốt, năng động, chuyên nghiệp\n'
+             '\n'
+             '- Bình quân thu nhập lên đến 250 triệu/năm với nhiều chính sách '
+             'đãi ngộ: hỗ trợ ăn trưa 1.000.000đ/tháng cùng các khoản thưởng '
+             'lễ tết, các ngày kỷ niệm thành lập Tổng Công ty, Trung tâm,...\n'
+             '\n'
+             '- Tham gia các chương trình bảo hiểm sức khoẻ tại các Công ty '
+             'Bảo hiểm lớn, có uy tín (Bảo Việt, PVI,...)\n'
+             '\n'
+             '- Thường xuyên tham dự các khoá đào tạo phong phú, đa dạng nhằm '
+             'giúp CBCNV không ngừng phát triển bản thân, nâng cao kỹ năng '
+             'cũng như chuyên môn nghiệp vụ.\n'
+             '\n'
+             '- Trải nghiệm các hoạt động văn hoá, thể thao, du xuân, nghỉ mát '
+             'hè trong và ngoài nước,...',
+ 'company': 'Trung tâm Dịch vụ số MobiFone - Chi nhánh Tổng Công ty Viễn Thông '
+            'Mobifone',
+ 'deadline': '',
+ 'description': '- Xây dựng bộ quy trình, hướng dẫn đảm bảo ATTT theo tiêu '
+                'chuẩn ISO 27001:2013\n'
+                '\n'
+                '- Lập kế hoạch triển khai quy trình, hướng dẫn đảm bảo ATTT\n'
+                '\n'
+                '- Triển khai các kế hoạch đảm bảo ATTT\n'
+                '\n'
+                '- Định kỳ audit, báo cáo kết quả thực hiện các công việc liên '
+                'quan tới ATTT\n'
+                '\n'
+                '- Tham gia phân tích, đánh giá, và xử lý sự cố ATTT\n'
+                '\n'
+                '- Đào tạo ATTT',
+ 'experience': '1 năm',
+ 'how_to_apply': 'Ứng tuyển',
+ 'link': 'https://www.topcv.vn/viec-lam/chuyen-vien-quan-ly-chat-luong-thu-nhap-len-den-20-trieu-nghi-thu-7-chu-nhat/1386932.html?ta_source=ITJobs_LinkDetail',
+ 'location': 'Hà Nội',
+ 'requirements': '- Tốt nghiệp cử nhân/kỹ sư chuyên ngành Công nghệ thông tin, '
+                 'Toán tin, ATTT, An ninh mạng,... tại các trường Đại học công '
+                 'lập/ngoài công lập trong nước hoặc các trường ĐH nước ngoài '
+                 'có uy tín\n'
+                 '\n'
+                 '- Ưu tiên có chứng chỉ Toeic từ 500 trở lên hoặc tương '
+                 'đương...\n'
+                 '\n'
+                 '- Có kiến thức tốt và kinh nghiệm tham gia triển khai và '
+                 'đánh giá các tiêu chuẩn quốc tế như CMMI, ISO 9001...\n'
+                 '\n'
+                 '- Có hiểu biết chuyên sâu về các tiêu chuẩn ATTT như ISO '
+                 '27001.\n'
+                 '\n'
+                 '- Có kinh nghiệm xây dựng và vận hành các quy trình theo '
+                 'Agile-Scrum\n'
+                 '\n'
+                 '+ Tuổi: Dưới 35 tuổi.\n'
+                 '\n'
+                 '+ Trình độ tiếng Anh: Bằng B trở lên (Ưu tiên thí sinh có '
+                 'chứng chỉ Tiếng Anh quốc tế: TOEFL, IELTS, TOEIC...).',
+ 'salary': 'Tới 20 triệu',
+ 'title': 'Chuyên Viên Quản Lý Chất Lượng Thu Nhập Lên Đến 20 Triệu, Nghỉ Thứ '
+          '7 Chủ Nhật'}
+2024-07-11 22:56:26 [scrapy] DEBUG: Crawled (200) <GET https://www.topcv.vn/viec-lam/japanese-operator/1392844.html?ta_source=ITJobs_LinkDetail> (referer: https://www.topcv.vn/viec-lam-it?sort=&skill_id=&skill_id_other=&keyword=&company_field=1&position=&salary=)
