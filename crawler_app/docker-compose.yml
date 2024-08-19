@@ -8,14 +8,14 @@ services:
     depends_on:
       - scrapy_spider
     networks:
-      - sdsp-common-services
+      - laptop-system
 
   scrapy_spider:
     build:
       context: .
       dockerfile: dockerfile
     networks:
-      - sdsp-common-services
+      - laptop-system
     volumes:
       - .:/app
     ports:
@@ -24,15 +24,7 @@ services:
       - SCRAPY_PROJECT=crawler_app
     restart: always
 
-  scrape:
-    build:
-      context: ./scrape
-      dockerfile: dockerfile
-    networks:
-      - sdsp-common-services
-    ports:
-      - "8000:8000"
-
 networks:
-  sdsp-common-services:
-    name: sdsp-common-services
+  laptop-system:
+    name: laptop-system
+    external: true

@@ -48,7 +48,7 @@ DEFAULT_REQUEST_HEADERS = {
 }
 
 ITEM_PIPELINES = {
-    # "crawler_app.pipelines.AmzScraperPipeline": 300,
+    "crawler_app.pipelines.MongoDBPipeline": 1,
 }
 
 

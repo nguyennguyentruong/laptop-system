@@ -11,6 +11,7 @@ dbt-dremio = "^1.7.0"
 scrapy = "^2.11.2"
 cloudinary = "^1.41.0"
 selenium = "^4.23.1"
+pymongo = "^4.8.0"
 
 
 [build-system]
