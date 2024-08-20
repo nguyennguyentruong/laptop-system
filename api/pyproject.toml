@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "laptop-system"
+name = "api"
 version = "0.1.0"
 description = ""
 authors = ["nguyennguyentruong <nguyenntk.18@grad.uit.edu.vn>"]
@@ -7,12 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-dbt-dremio = "^1.7.0"
-scrapy = "^2.11.2"
-cloudinary = "^1.41.0"
-selenium = "^4.23.1"
-pymongo = "^4.8.0"
-pyspark = "^3.5.2"
+flask = "^3.0.3"
 
 
 [build-system]

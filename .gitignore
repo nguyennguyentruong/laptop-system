@@ -1,3 +1,6 @@
 logs/*
 *.pyc
 __pycache__
+*.pid
+data/*
+mongo_vol/*

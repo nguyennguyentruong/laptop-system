@@ -14,7 +14,7 @@ services:
     networks:
       - laptop-system
     volumes:
-    - /bitnami/mongodb
+      - ./mongo_vol:/bitnami/mongodb
 
   mongodb-secondary:
     image: docker.io/bitnami/mongodb:7.0
@@ -33,8 +33,18 @@ services:
       - '30001:27017'
     networks:
       - laptop-system
+
+  
+  kestra:
+    image: kestra/kestra:latest
+    command: server local
     volumes:
-      - /bitnami/mongodb
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp:/tmp
+    ports:
+      - 8080:8080
+
+  
 
 networks:
   laptop-system:
