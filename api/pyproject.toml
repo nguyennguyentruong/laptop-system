@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 flask = "^3.0.3"
+pyspark = "^3.5.2"
 
 
 [build-system]

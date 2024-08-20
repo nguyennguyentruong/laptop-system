@@ -10,4 +10,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-CMD ["poetry", "run", "jupyter", "notebook", "--ip", "0.0.0.0" , "--allow-root"]
+CMD ["jupyter", "notebook", "--ip", "0.0.0.0" , "--allow-root"]
